@@ -1,0 +1,130 @@
+html{
+    background: url("background.jpg");
+    background-size: cover;
+    height: 100%;
+}
+body{
+    color: white;
+}
+h1{
+    text-align: center;
+    margin: 15px;
+}
+#calendar{
+    position: relative;
+}
+#tableTop{
+    width: 770px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: -385px;
+    left: 50%;
+    position: relative;
+}
+.googleSignIn{
+    position: absolute;
+}
+#heading2{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+table{
+    margin: auto;
+    width: 770px;
+    height: 580px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+th{
+    height: 30px;
+    width: 110px;
+    border: 3px solid #bfbfbf;
+    background-color: #304FFE;
+    font-size: 1.1em;
+    
+}
+td{
+    height: 110px;
+    width: 110px;
+    border: 3px solid #bfbfbf;
+    color: #187adb;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: text-top;
+    cursor: pointer;
+    position: relative;
+}
+#calendarTable td:nth-child(7) {
+    color: red;
+}
+#eventPopup{
+    display: none;
+    -webkit-animation: animateEventPopup 1s;
+    animation: animateEventPopup 1s;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    background-color: #304FFE;
+    border-radius: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    left: 50%;
+    top: 50%;
+    margin: -200px 0 0 -200px;
+    position: absolute;
+    z-index: 5;
+}
+#googleID{
+    display: none;
+}
+.eventTime{
+    display: inline-block;
+    width: 150px;
+}
+#eventTimeFrom{
+    float: left;
+}
+#eventSave {
+    height: 25px;
+    width: 50px;
+    border: none;
+    font-weight: bold;
+    color: #304FFE;
+    background-color: white;
+}
+/* The Close Button */ 
+#closePopupButton {
+    color: white;
+    float: right;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+#closePopupButton:hover,
+#closePopupButton:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.event{
+    display: inline-block;
+    width: 107px;
+    color: black;
+    background-color: yellow;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    overflow: hidden;
+    top:40%;
+    left: 0%;
+    position: absolute;
+}
+@-webkit-keyframes animateEventPopup {
+    from {top:0%; opacity:0} 
+    to {top:%50; opacity:1}
+}
+@keyframes animateEventPopup {
+    from {top:0%; opacity:0}
+    to {top:50%; opacity:1}
+}
