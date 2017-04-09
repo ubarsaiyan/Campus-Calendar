@@ -1,2 +1,4 @@
-# Campus-Calendar
-Break free from the chaotic emails and be organised with this sleek calendar.
+#Undefeated
+Campus Calendar
+Every university student is flooded by e-mails from the institute and various clubs about the hoards of events like lectures, cultural programmes, talks and workshops that are going to occur. Students may miss out on some events due to lack of time management and many a times forget about the event time, date or place and sometimes everything. Many events also clash with another event as the organising authority has little knowledge about other events that are scheduled at the same time.
+So we aim to tackle this problem by making a campus calendar web application comprising of a personalised calendar for each student and the organizer will be able to add and edit events based on rights given and the student can opt to be reminded of the events he/she is interested in. The organisers can see other events scheduled and can plan accordingly.
